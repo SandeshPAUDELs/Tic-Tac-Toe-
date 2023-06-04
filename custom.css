@@ -1,0 +1,43 @@
+body{
+    background-color: gainsboro;
+}
+section{
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(246, 14, 14);
+    box-shadow: 0px 10px 36px 16px ghostwhite;
+}
+.game-title{
+    padding-top: 20px;
+} 
+.container-game{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150px;
+    margin: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.cell{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px green;
+    border: 1px solid green;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 20px;
+}
+button{
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.25s;
+    background-color: gold;
+}
